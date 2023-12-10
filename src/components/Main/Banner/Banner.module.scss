@@ -1,0 +1,25 @@
+@import "../../../assests//globalStyles/VariableStyles/VariableStyles";
+.mainBanner {
+  min-height: 90vh;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+// .gitHubColor {
+//   color: black;
+// }
+.linkedinColor {
+  color: blue;
+}
+.gitHubColor:hover {
+  color: $color-yellow;
+}
+.linkedinColor:hover {
+  color: $color-yellow;
+}
+.facebookColor:hover {
+  color: $color-yellow;
+}
+a {
+  color: unset;
+}

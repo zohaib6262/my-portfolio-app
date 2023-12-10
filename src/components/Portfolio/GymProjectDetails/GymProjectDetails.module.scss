@@ -1,0 +1,20 @@
+.overlayDiv {
+  background-image: url(../../../assests/images/GymImages/GYM-4.jpg);
+  background-size: "cover";
+  background-position: "center";
+  background-repeat: "no-repeat";
+  height: "100vh";
+  width: "100vw";
+  position: "absolute";
+  top: "0";
+  left: "0";
+  z-index: "-1";
+  opacity: "0.2";
+}
+.detailsTop p {
+  margin: 20px 0;
+}
+
+.detailsTop .btn {
+  margin-top: 20px;
+}
