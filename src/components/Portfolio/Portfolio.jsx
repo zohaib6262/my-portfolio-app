@@ -8,10 +8,10 @@ import {
   CardTitle,
   CardText,
 } from "react-bootstrap";
-import styles from "./Portfolio.module.scss";
-import gymImage from "../../assests/images/gymImage.jpg";
-import photographyImage from "../../assests/images/photographyImage.jpg";
-import travellyImage from "../../assests/images/travellingImage.jpg";
+import styles from "./Portfolio.module.css";
+import gymImage from "../../assets/images/gymImage.jpg";
+import photographyImage from "../../assets/images/photographyImage.jpg";
+import travellyImage from "../../assets/images/travellingImage.jpg";
 
 const Portfolio = () => {
   return (

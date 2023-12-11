@@ -1,11 +1,11 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import styles from "./NavBar.module.scss";
+import styles from "./NavBar.module.css";
 const NavBar = () => {
   return (
     <Navbar
-      expand="lg"
+      // expand="lg"
       bg="dark"
       data-bs-theme="dark"
       className={`${styles.mainNavBar}`}
@@ -22,7 +22,7 @@ const NavBar = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="me-auto"></Nav>
         <Nav className="me-5">
-          <Nav.Link href="/" className="mx-3">
+          <Nav.Link href="/" className="mx-1">
             Home
           </Nav.Link>
           <Nav.Link href="/portfolio" className="mx-3">

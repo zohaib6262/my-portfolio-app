@@ -4,9 +4,11 @@
 }
 
 img {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
+
 .mainPortfolio {
   min-height: 90vh;
   width: auto;
-}
+}/*# sourceMappingURL=Portfolio.module.css.map */
