@@ -6,7 +6,7 @@ import Portfolio from "../components/Portfolio/Portfolio";
 import GymProjectDetails from "../components/Portfolio/GymProjectDetails/GymProjectDetails";
 import PhotoGraphyProjectDetails from "../components/Portfolio/PhotoGraphyProjectDetails/PhotoGraphyProjectDetails";
 import TravellingProjectDetails from "../components/Portfolio/TravellingProjectDetails/TravellingProjectDetails";
-
+import "../assets/globalStyles/globalStyles.css";
 const Router = () => {
   return (
     <div>

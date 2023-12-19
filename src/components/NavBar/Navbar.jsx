@@ -5,10 +5,10 @@ import styles from "./NavBar.module.css";
 const NavBar = () => {
   return (
     <Navbar
-      // expand="lg"
+      expand="lg"
       bg="dark"
       data-bs-theme="dark"
-      className={`${styles.mainNavBar}`}
+      className={`${styles.mainNavBar} `}
     >
       <Navbar.Brand
         href="#home"

@@ -1,20 +1,26 @@
-.overlayDiv {
-  background-image: url(../../../assets/images/GymImages/GYM-4.jpg);
-  background-size: "cover";
-  background-position: "center";
-  background-repeat: "no-repeat";
-  height: "100vh";
-  width: "100vw";
-  position: "absolute";
-  top: "0";
-  left: "0";
-  z-index: "-1";
-  opacity: "0.2";
+.body {
+  background-color: "#edf1f5";
+  margin-top: "20px";
 }
-.detailsTop p {
-  margin: 20px 0;
+.card {
+  margin-bottom: "30px";
+  position: "relative";
+  display: "flex";
+  flex-direction: "column";
+  min-width: 0;
+  word-wrap: "break-word";
+  background-color: "#fff";
+  background-clip: "border-box";
+  border: "0 solid transparent";
+  border-radius: "0";
+}
+.cardSubtitle {
+  font-weight: 300;
+  margin-bottom: "10px";
+  color: "#8898aa";
 }
 
-.detailsTop .btn {
-  margin-top: 20px;
+.tableProduct {
+  border-top: "0px solid #dee2e6 !important";
+  color: "#728299!important";
 }
