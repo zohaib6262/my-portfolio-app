@@ -1,6 +1,6 @@
 .mainBanner {
   min-height: 90vh;
-  width: auto;
+  width: 100%;
 }
 
 .gitHubColor:hover {

@@ -10,5 +10,9 @@ img {
 
 .mainPortfolio {
   min-height: 90vh;
-  width: auto;
+  width: 100%;
+}
+
+.card {
+  box-shadow: rgba(0, 0, 0, 0.9);
 }/*# sourceMappingURL=Portfolio.module.css.map */

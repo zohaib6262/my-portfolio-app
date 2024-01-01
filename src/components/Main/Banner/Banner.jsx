@@ -6,11 +6,8 @@ import * as Icon from "react-bootstrap-icons";
 import myCV from "../../../assets/myCV/CV.pdf";
 const Banner = () => {
   return (
-    <Container className={`${styles.mainBanner} ${"fluid"}`}>
-      <Row
-        className=" justify-content-xxl-around justify-content-xl-around justify-content-lg-around
-        justify-content-md-around align-items-xxl-around"
-      >
+    <Container className={`${styles.mainBanner}`}>
+      <Row>
         <Col xl={6} lg={6} md={6} className="mt-5">
           <h3 className="mx-3 text-uppercase fw-bolder">
             Hi,I am <span className="text-warning">Zohaib Ashraf</span>
