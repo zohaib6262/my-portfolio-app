@@ -5,13 +5,8 @@ import styles from "./NavBar.module.css";
 import { Container } from "react-bootstrap";
 const NavBar = () => {
   return (
-    <Navbar
-      expand="lg"
-      bg="dark"
-      data-bs-theme="dark"
-      className={`${styles.mainNavBar} `}
-    >
-      <Container>
+    <Container fluid className={`${styles.mainNavBar} ${"bg-dark"}`}>
+      <Navbar expand="lg" data-bs-theme="dark">
         <Navbar.Brand
           href="#home"
           className={`${
@@ -23,7 +18,7 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto"></Nav>
-          <Nav className="me-1">
+          <Nav className="mx-5">
             <Nav.Link href="/" className="me-1">
               Home
             </Nav.Link>
@@ -32,8 +27,8 @@ const NavBar = () => {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Container>
-    </Navbar>
+      </Navbar>
+    </Container>
   );
 };
 

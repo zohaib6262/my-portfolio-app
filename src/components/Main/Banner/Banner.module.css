@@ -1,6 +1,7 @@
 .mainBanner {
   min-height: 90vh;
   width: 100%;
+  background-color: beige;
 }
 
 .gitHubColor:hover {
@@ -17,4 +18,9 @@
 
 .anchorTag {
   color: unset;
+  margin-left: 0.5rem;
+}
+
+a {
+  list-style: none;
 }/*# sourceMappingURL=Banner.module.css.map */

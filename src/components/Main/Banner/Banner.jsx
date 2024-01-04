@@ -1,38 +1,56 @@
 import React from "react";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import {
+  Container,
+  Row,
+  Col,
+  Image,
+  Button,
+  CardTitle,
+  CardBody,
+  Card,
+} from "react-bootstrap";
 import myImage from "../../../assets/images/zaibiImgae.png";
 import styles from "./Banner.module.css";
 import * as Icon from "react-bootstrap-icons";
-import myCV from "../../../assets/myCV/CV.pdf";
+import myCV from "../../../assets/myCV/ZOHAIB_ASHRAF_CV.pdf";
 const Banner = () => {
   return (
-    <Container className={`${styles.mainBanner}`}>
+    <Container fluid className={`${styles.mainBanner}`}>
       <Row>
-        <Col xl={6} lg={6} md={6} className="mt-5">
+        <Col xxl={8} xl={8} lg={8} md={8} sm={12} className="mt-5">
           <h3 className="mx-3 text-uppercase fw-bolder">
-            Hi,I am <span className="text-warning">Zohaib Ashraf</span>
+            Hi,I am <span className="text-warning">Frontend Developer</span>
           </h3>
           <p className="m-3">
-            Hi,My name is Zohaib Ashraf.Since,2021 I am studying at{" "}
-            <span className="fw-bolder">
-              PIR MEHER ALI SHAH ARID AGRICULTURE UNIVERSITY
-            </span>
-            (PMAS).I am studying at PMAS in Computer Science department. Now I
-            am in 5th Semester of Computer Science degree.Basically,I am
-            intrested in Web Development so, I create own my this Portfolio.I
-            have 1.5 years of experience in Web Development.I can create Web
-            Applications in such a good way.I have hands of practice with
-            projects in basic's like "HTML5","CSS3","SASS","BOOTSTRAP"
-            technologies and other "JAVASCRIPT" and learnt JS library "React".If
-            you can get more details about me then see my projects in portfolio
-            section and download my CV.
+            I'm
+            <span className="text-warning fs-5 fw-bold"> Zohaib Ashraf. </span>
+            I'm a passionate Web Developer with one and half years of experience
+            in crafting responsive and user-friendly web solutions. My expertise
+            lies in front-end development, and collaborating with
+            cross-functional teams to deliver exceptional projects. I'm deeply
+            passionate about leveraging technology to create innovative
+            solutions that address real-world challenges. Throughout my career,
+            I've had the privilege to work on award-winning websites and
+            high-impact applications, enriching my skills and reinforcing my
+            commitment to excellence.
           </p>
-          <h5 className="mx-3">
+          <div className="mx-3">
+            <Card.Title className="pt-3">
+              <h4 className="text-warning">Key Skills</h4>
+            </Card.Title>
+            <Card.Body>
+              <ul>
+                <li>HTML,CSS</li>
+                <li>SASS,BOOTSTRAP</li>
+                <li>REACT</li>
+                <li>GitHub</li>
+              </ul>
+            </Card.Body>
+          </div>
+          <div className="mx-3">
             <a href={myCV} target="_blank">
-              Download CV
+              <h5 className="d-inline-block me-3">Download CV</h5>
             </a>
-          </h5>
-          <h2 className="mx-3">
             <a
               href="https://github.com/zohaib6262"
               target="_blank"
@@ -64,12 +82,19 @@ const Banner = () => {
                   ${"me-3"}`}
               />
             </a>
-          </h2>
+          </div>
         </Col>
-        <Col className="my-auto text-center" xl={6} lg={6} md={6}>
+        <Col
+          className="my-auto text-center"
+          xxl={4}
+          xl={4}
+          lg={4}
+          md={4}
+          sm={12}
+        >
           <Image
             src={myImage}
-            className="bg-dark "
+            className="bg-dark mt-5"
             roundedCircle
             width={300}
             height={300}

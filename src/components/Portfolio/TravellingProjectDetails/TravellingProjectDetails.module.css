@@ -4,7 +4,6 @@
   background-image: url("../../../assets/images/TravellyImages/landing-page.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
 }
 
 .bgDark {
@@ -13,4 +12,8 @@
 
 .gitHubBtn {
   text-align: left;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=TravellingProjectDetails.module.css.map */

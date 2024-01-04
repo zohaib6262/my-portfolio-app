@@ -3,6 +3,11 @@
 .mainBanner {
   min-height: 90vh;
   width: 100%;
+  // background-color: antiquewhite;
+  // background-color: aliceblue;
+
+  // background-color: azure;
+  background-color: beige;
 }
 
 .gitHubColor:hover {
@@ -16,4 +21,8 @@
 }
 .anchorTag {
   color: unset;
+  margin-left: 0.5rem;
+}
+a {
+  list-style: none;
 }

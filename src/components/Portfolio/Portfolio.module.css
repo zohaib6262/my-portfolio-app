@@ -1,6 +1,5 @@
 .anchorTag {
   text-decoration: none;
-  color: white;
 }
 
 img {
@@ -11,8 +10,9 @@ img {
 .mainPortfolio {
   min-height: 90vh;
   width: 100%;
+  background-color: rgb(235, 211, 187);
 }
 
-.card {
-  box-shadow: rgba(0, 0, 0, 0.9);
+.row {
+  margin-left: 3rem;
 }/*# sourceMappingURL=Portfolio.module.css.map */

@@ -4,7 +4,6 @@
   background-image: url("../../../assets/images/PhotographyImages/gallery-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
 }
 
 .bgDark {
@@ -13,4 +12,8 @@
 
 .gitHubBtn {
   text-align: left;
+}
+
+a {
+  text-decoration: none;
 }/*# sourceMappingURL=PhotoGraphyProjectDetails.module.css.map */

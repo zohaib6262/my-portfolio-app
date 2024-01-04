@@ -1,1 +1,1 @@
-{"version":3,"sources":["GymProjectDetails.module.scss","GymProjectDetails.module.css"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,gBAAA;EACA,oEAAA;EACA,4BAAA;EACA,sBAAA;EACA,kBAAA;ACCF;;ADEA;EACE,8BAAA;ACCF;;ADCA;EACE,gBAAA;ACEF","file":"GymProjectDetails.module.css"}
+{"version":3,"sources":["GymProjectDetails.module.scss","GymProjectDetails.module.css"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,gBAAA;EACA,oEAAA;EACA,4BAAA;EACA,sBAAA;ACCF;;ADEA;EACE,8BAAA;ACCF;;ADCA;EACE,gBAAA;ACEF;;ADAA;EACE,qBAAA;ACGF","file":"GymProjectDetails.module.css"}
