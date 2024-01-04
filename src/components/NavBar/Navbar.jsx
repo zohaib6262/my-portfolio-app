@@ -6,19 +6,21 @@ import { Container } from "react-bootstrap";
 const NavBar = () => {
   return (
     <Container fluid className={`${styles.mainNavBar} ${"bg-dark"}`}>
-      <Navbar expand="lg" data-bs-theme="dark">
+      <Navbar
+        expand="lg"
+        data-bs-theme="dark"
+        className="d-flex align-items-stretch "
+      >
         <Navbar.Brand
-          href="#home"
-          className={`${
-            styles.brandFontFamily
-          } ${"text-warning text-uppercase mx-5"}`}
+          href="/"
+          className={` ${"text-warning text-uppercase fw-bold mx-5"}`}
         >
           Zohaib
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav w-75">
           <Nav className="me-auto"></Nav>
-          <Nav className="mx-5">
+          <Nav className="mx-5 ">
             <Nav.Link href="/" className="me-1">
               Home
             </Nav.Link>
