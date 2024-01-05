@@ -17,7 +17,7 @@ const Portfolio = () => {
   return (
     <Container
       fluid
-      className={`${"d-flex justify-content-around bg-dark py-5"}  ${
+      className={`${"d-flex justify-content-around py-5"}  ${
         styles.mainPortfolio
       }`}
     >
