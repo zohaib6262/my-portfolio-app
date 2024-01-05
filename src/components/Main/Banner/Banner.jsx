@@ -127,8 +127,8 @@ const Banner = () => {
             src={myImage}
             className="bg-dark mt-5"
             roundedCircle
-            width={500}
-            height={500}
+            width={350}
+            height={350}
           />
         </Col>
       </Row>
