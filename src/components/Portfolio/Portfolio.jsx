@@ -1,97 +1,77 @@
 import React from "react";
 import {
-  Card,
-  CardBody,
-  CardImg,
-  CardTitle,
-  CardText,
   Container,
   Row,
   Col,
+  Card,
+  CardText,
+  CardTitle,
+  CardBody,
+  CardImg,
 } from "react-bootstrap";
 import styles from "./Portfolio.module.css";
 import gymImage from "../../assets/images/gymImage.jpg";
 import photographyImage from "../../assets/images/photographyImage.jpg";
 import travellyImage from "../../assets/images/travellingImage.jpg";
-
 const Portfolio = () => {
   return (
-    <Container fluid className={styles.mainPortfolio}>
-      <Row className={`${styles.row}`}>
-        <Col xxl={4} xl={4} lg={4} md={4} sm={6}>
-          <Card className={`${"w-75 h-55 my-5 "}`}>
-            <CardImg
-              alt="Card image cap"
-              src={gymImage}
-              top
-              width="100%"
-              height="35%"
-            />
-            <CardBody>
-              <CardTitle tag="h4">Gym Project</CardTitle>
-              <CardText>
+    <Container
+      fluid
+      className={`${"d-flex justify-content-around bg-dark py-5"}  ${
+        styles.mainPortfolio
+      }`}
+    >
+      <Row className="m-auto">
+        <Col md={4} xxl={4} xl={4} lg={4} sm={6} className="px-5 py-4">
+          <Card className={styles.card}>
+            <Card.Img variant="top" src={gymImage} />
+            <Card.Body>
+              <Card.Title tag="h4">Gym Project</Card.Title>
+              <Card.Text>
                 “The body achieves what the mind believes.” – Napoleon Hill
-              </CardText>
-              {/* <Button variant="warning "> */}
+              </Card.Text>
               <a
                 href="/portfolio/gym-project-details"
                 className={styles.anchorTag}
               >
                 Project Details
               </a>
-              {/* </Button> */}
-            </CardBody>
+            </Card.Body>
           </Card>
         </Col>
-        <Col xxl={4} xl={4} lg={4} md={4} sm={6}>
-          <Card className="w-75 h-55 my-5">
-            <CardImg
-              alt="Card image cap"
-              src={travellyImage}
-              top
-              width="100%"
-              height="35%"
-            />
-            <CardBody>
+        <Col md={4} className="px-5 py-4">
+          <Card className={styles.card}>
+            <Card.Img variant="top" src={travellyImage} />
+            <Card.Body>
               <CardTitle tag="h4">Travelling Project</CardTitle>
               <CardText>
                 “Travel far enough, you meet yourself.” ― David Mitchell
               </CardText>
-              {/* <Button variant="warning "> */}
               <a
                 href="/portfolio/travelling-project-details"
                 className={styles.anchorTag}
               >
                 Project Details
               </a>
-              {/* </Button> */}
-            </CardBody>
+            </Card.Body>
           </Card>
         </Col>
-        <Col xxl={4} xl={4} lg={4} md={4} sm={6}>
-          <Card className="w-75 h-55 my-5">
-            <CardImg
-              alt="Card image cap"
-              src={photographyImage}
-              top
-              width="100%"
-              height="35%"
-            />
-            <CardBody className="h-40">
-              <CardTitle tag="h4">Photography Project</CardTitle>
-              <CardText>
+        <Col md={4} className="px-5 py-4">
+          <Card className={styles.card}>
+            <Card.Img variant="top" src={photographyImage} />
+            <Card.Body>
+              <Card.Title tag="h4">Photography Project</Card.Title>
+              <Card.Text>
                 “Photography is the story I fail to put into words.” — Destin
                 Sparks
-              </CardText>
-              {/* <Button variant="warning "> */}
+              </Card.Text>
               <a
                 href="/portfolio/photography-project-details"
                 className={styles.anchorTag}
               >
                 Project Details
               </a>
-              {/* </Button> */}
-            </CardBody>
+            </Card.Body>
           </Card>
         </Col>
       </Row>

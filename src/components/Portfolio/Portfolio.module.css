@@ -10,5 +10,8 @@ img {
 .mainPortfolio {
   min-height: 90vh;
   width: 100%;
-  background-color: rgb(235, 211, 187);
+}
+
+.card {
+  width: 18rem;
 }/*# sourceMappingURL=Portfolio.module.css.map */
