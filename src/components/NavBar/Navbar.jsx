@@ -5,12 +5,12 @@ import styles from "./NavBar.module.css";
 import { Container } from "react-bootstrap";
 const NavBar = () => {
   return (
-    <Container fluid className={`${styles.mainNavBar} ${"bg-dark"}`}>
-      <Navbar
-        expand="lg"
-        data-bs-theme="dark"
-        className="d-flex align-items-stretch "
-      >
+    <Navbar
+      expand="lg"
+      data-bs-theme="dark"
+      className={`${styles.mainNavBar} ${"bg-dark "}`}
+    >
+      <Container>
         <Navbar.Brand
           href="/"
           className={` ${"text-warning text-uppercase fw-bold mx-5"}`}
@@ -29,8 +29,8 @@ const NavBar = () => {
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
-      </Navbar>
-    </Container>
+      </Container>
+    </Navbar>
   );
 };
 
