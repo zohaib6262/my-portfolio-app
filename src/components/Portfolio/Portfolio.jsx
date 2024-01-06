@@ -14,12 +14,11 @@ import travellyImage from "../../assets/images/travellingImage.jpg";
 const Portfolio = () => {
   return (
     <Container
-      fluid
       className={`  ${
         styles.mainPortfolio
       } ${"d-flex justify-content-center "}`}
     >
-      <Row className="justify-content-ceter bg-dark">
+      <Row className="justify-content-ceter">
         <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-4">
           <Card className={styles.card}>
             <Card.Img variant="top" src={gymImage} />
