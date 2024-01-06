@@ -6,8 +6,6 @@ import {
   Card,
   CardText,
   CardTitle,
-  CardBody,
-  CardImg,
 } from "react-bootstrap";
 import styles from "./Portfolio.module.css";
 import gymImage from "../../assets/images/gymImage.jpg";
@@ -17,12 +15,12 @@ const Portfolio = () => {
   return (
     <Container
       fluid
-      className={`${"d-flex justify-content-around py-5"}  ${
+      className={`  ${
         styles.mainPortfolio
-      }`}
+      } ${"d-flex justify-content-center "}`}
     >
-      <Row className="m-auto">
-        <Col md={4} xxl={4} xl={4} lg={4} sm={6} className="px-5 py-4">
+      <Row className="justify-content-ceter bg-dark">
+        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-4">
           <Card className={styles.card}>
             <Card.Img variant="top" src={gymImage} />
             <Card.Body>
@@ -39,7 +37,7 @@ const Portfolio = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4} className="px-5 py-4">
+        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-4">
           <Card className={styles.card}>
             <Card.Img variant="top" src={travellyImage} />
             <Card.Body>
@@ -56,7 +54,7 @@ const Portfolio = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={4} className="px-5 py-4">
+        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-4">
           <Card className={styles.card}>
             <Card.Img variant="top" src={photographyImage} />
             <Card.Body>

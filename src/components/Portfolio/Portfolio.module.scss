@@ -11,4 +11,11 @@ img {
 }
 .card {
   width: 18rem;
+  margin: auto;
+}
+@media only screen and (max-width: 778px) {
+  .card {
+    width: 12rem;
+    margin: auto;
+  }
 }
