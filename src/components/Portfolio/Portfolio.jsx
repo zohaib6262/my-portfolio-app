@@ -14,12 +14,13 @@ import travellyImage from "../../assets/images/travellingImage.jpg";
 const Portfolio = () => {
   return (
     <Container
+      fluid
       className={`  ${
         styles.mainPortfolio
-      } ${"d-flex justify-content-center "}`}
+      } ${"d-flex justify-content-center pt-5"}`}
     >
       <Row className="justify-content-ceter">
-        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-4">
+        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-5">
           <Card className={styles.card}>
             <Card.Img variant="top" src={gymImage} />
             <Card.Body>
@@ -36,7 +37,7 @@ const Portfolio = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-4">
+        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-5">
           <Card className={styles.card}>
             <Card.Img variant="top" src={travellyImage} />
             <Card.Body>
@@ -53,7 +54,7 @@ const Portfolio = () => {
             </Card.Body>
           </Card>
         </Col>
-        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-4">
+        <Col md={6} xxl={4} xl={4} lg={4} sm={12} className="py-5 px-5">
           <Card className={styles.card}>
             <Card.Img variant="top" src={photographyImage} />
             <Card.Body>
