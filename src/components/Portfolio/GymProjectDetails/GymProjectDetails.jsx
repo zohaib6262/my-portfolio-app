@@ -9,14 +9,6 @@ const GymProjectDetails = () => {
   return (
     <Card className={`${styles.card} ${"text-white"}`}>
       <Card.Body className={`${styles.bgDark}`}>
-        <Card.Title className="text-center">
-          <h4>
-            PROJECT NAME :
-            <span>
-              <h4 className="d-inline"> ZAIBI GYM</h4>
-            </span>
-          </h4>
-        </Card.Title>
         <Row>
           <Col lg={5} md={5} sm={6}>
             <Container fluid className={`${"pt-5 text-white"} `}>
@@ -50,10 +42,10 @@ const GymProjectDetails = () => {
               </a>
             </Card.Body>
             <Card.Title className="pt-4">
-              <h4>Key Highlights</h4>
+              <h4>Technologies</h4>
             </Card.Title>
             <Card.Body>
-              <ul>
+              <ul className="list-unstyled">
                 <li>HTML,CSS</li>
                 <li>BOOTSTRAP</li>
                 <li>RESPONSIVE LANDING PAGES</li>
