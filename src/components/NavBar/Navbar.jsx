@@ -16,7 +16,7 @@ const NavBar = () => {
       data-bs-theme="dark"
       className={` ${"bg-dark"} ${styles.mainNavBar}`}
     >
-      <Container fluid>
+      <Container>
         <Navbar.Brand
           href="/"
           className={` ${"text-warning text-uppercase fw-bold px-3"}`}

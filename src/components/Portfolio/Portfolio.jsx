@@ -14,7 +14,6 @@ import travellyImage from "../../assets/images/travellingImage.jpg";
 const Portfolio = () => {
   return (
     <Container
-      fluid
       className={`  ${
         styles.mainPortfolio
       } ${"d-flex justify-content-center pt-5"}`}

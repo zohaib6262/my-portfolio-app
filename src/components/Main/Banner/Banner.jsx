@@ -16,17 +16,17 @@ import myCV from "../../../assets/myCV/ZOHAIB_ASHRAF_CV.pdf";
 const Banner = () => {
   return (
     <section className={`${styles.mainBanner}`}>
-      <Container fluid>
+      <Container>
         <Row>
-          <Col xxl={7} xl={7} lg={7} md={12} sm={12} className="mt-5">
+          <Col xxl={8} xl={8} lg={8} md={12} sm={12} className="mt-5 my-">
             <h3 className="mx-3 text-uppercase fw-bolder">
               Hi,I am <span className="text-warning">Frontend Developer</span>
             </h3>
-            <p className="m-3 lh-lg">
+            <p className="m-3 lh-md">
               My name is
-              <span className="text-warning fs-5 fw-bold">Zohaib Ashraf.</span>
+              <span className="text-warning fs-5 fw-bold"> Zohaib Ashraf.</span>
               I'm a Web Developer specializing in front-end development and
-              UI/UX design. With over 5 years of experience in the industry,
+              UI/UX design. With over 2 years of experience in the industry,
               I've had the opportunity to work on award-winning websites and
               innovative applications that have transformed user experiences.
               I'm deeply passionate about creating innovative solutions and
@@ -35,7 +35,7 @@ const Banner = () => {
               I strive to make a positive impact in everything I do.
             </p>
 
-            <p className="m-3 lh-lg">
+            <p className="m-3 lh-md">
               Throughout my career, I've had the privilege to work on a diverse
               range of projects, from building interactive websites and
               applications for startups to collaborating on large-scale projects
@@ -46,7 +46,7 @@ const Banner = () => {
               explore innovative solutions that push the boundaries of what's
               possible in web development.
             </p>
-            {/* <p className="m-3 lh-lg">
+            <p className="m-3 lh-md">
               I invite you to explore my portfolio to see examples of my work
               and learn more about my skills, experience, and achievements.
               Whether you're interested in web development, UI/UX design, or
@@ -55,32 +55,32 @@ const Banner = () => {
               or if you're interested in working together, I'd love to hear from
               you. Feel free to send me a message or view my services to stay
               updated on my latest projects and insights.
-            </p> */}
+            </p>
             <div className="mx-3">
               <Card.Title className="pt-3">
-                <h4 className="text-warning text-uppercase fw-bolder">
+                <h5 className="text-warning text-uppercase fw-bolder">
                   Programming Languages
-                </h4>
+                </h5>
               </Card.Title>
               <Card.Body>
                 <ul className="">
-                  <h5 className="fw-bolder">Frontend Languages</h5>
+                  <h6 className="fw-bolder">Frontend Languages</h6>
                   <ul>
                     <li>HTML,CSS</li>
                   </ul>
-                  <h5 className="fw-bolder">Frontend CSS Preprosessor</h5>
+                  <h6 className="fw-bolder">Frontend CSS Preprosessor</h6>
                   <ul>
                     <li>SASS</li>
                   </ul>
-                  <h5 className="fw-bolder">Frontend CSS Framework</h5>
+                  <h6 className="fw-bolder">Frontend CSS Framework</h6>
                   <ul>
                     <li>BOOTSTRAP</li>
                   </ul>
-                  <h5 className="fw-bolder">Frontend Framework</h5>
+                  <h6 className="fw-bolder">Frontend Framework</h6>
                   <ul>
                     <li>React JS</li>
                   </ul>
-                  <h5>Version Control</h5>
+                  <h6>Version Control</h6>
                   <ul>
                     <li>Git Hub</li>
                     <li>Vercel</li>
@@ -129,9 +129,9 @@ const Banner = () => {
           </Col>
           <Col
             className="my-auto text-center"
-            xxl={5}
-            xl={5}
-            lg={5}
+            xxl={4}
+            xl={4}
+            lg={4}
             md={12}
             sm={12}
           >
