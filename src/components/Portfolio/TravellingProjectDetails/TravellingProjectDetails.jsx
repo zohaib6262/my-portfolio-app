@@ -33,7 +33,10 @@ const TravellingProjectDetails = () => {
               <h5 className="d-inline-block me-1">See on GitHub</h5>
               <Icon.ArrowRight size={20} className="me-2" />
 
-              <a href="https://github.com/zohaib6262" target="_blank">
+              <a
+                href="https://github.com/zohaib6262/travel-agency.git"
+                target="_blank"
+              >
                 <Icon.Github size={25} />
               </a>
             </Card.Body>

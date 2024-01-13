@@ -24,10 +24,7 @@ const Banner = () => {
             </h3>
             <p className="m-3 lh-lg">
               My name is
-              <span className="text-warning fs-5 fw-bold">
-                {" "}
-                Zohaib Ashraf.{" "}
-              </span>
+              <span className="text-warning fs-5 fw-bold">Zohaib Ashraf.</span>
               I'm a Web Developer specializing in front-end development and
               UI/UX design. With over 5 years of experience in the industry,
               I've had the opportunity to work on award-winning websites and
@@ -49,7 +46,7 @@ const Banner = () => {
               explore innovative solutions that push the boundaries of what's
               possible in web development.
             </p>
-            <p className="m-3 lh-lg">
+            {/* <p className="m-3 lh-lg">
               I invite you to explore my portfolio to see examples of my work
               and learn more about my skills, experience, and achievements.
               Whether you're interested in web development, UI/UX design, or
@@ -58,7 +55,7 @@ const Banner = () => {
               or if you're interested in working together, I'd love to hear from
               you. Feel free to send me a message or view my services to stay
               updated on my latest projects and insights.
-            </p>
+            </p> */}
             <div className="mx-3">
               <Card.Title className="pt-3">
                 <h4 className="text-warning text-uppercase fw-bolder">
