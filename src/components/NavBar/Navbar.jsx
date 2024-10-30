@@ -1,50 +1,48 @@
-import React, { useState } from "react";
+import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import styles from "./NavBar.module.css";
-
 import { Container } from "react-bootstrap";
-const NavBar = () => {
-  const [activeLink, setActiveLink] = useState("home"); // Default active link
+import { NavLink } from "react-router-dom";
 
-  const handleSetActive = (link) => {
-    setActiveLink(link);
-  };
+const NavBar = () => {
   return (
     <Navbar
       expand="lg"
       data-bs-theme="dark"
-      className={` ${"bg-dark"} ${styles.mainNavBar}`}
+      className={`bg-dark ${styles.mainNavBar}`}
     >
-      <Container>
-        <Navbar.Brand
-          href="/"
-          className={` ${"text-warning text-uppercase fw-bold px-3"}`}
+      <Container fluid className="px-5">
+        <NavLink
+          to="/"
+          className="text-warning text-uppercase fw-bold px-3 text-decoration-none"
         >
           Zohaib
-        </Navbar.Brand>
+        </NavLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav ">
+        <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto"></Nav>
-          <Nav className="me-4 ">
-            <Nav.Link
-              href="/"
-              className={`${
-                activeLink === "home" ? styles.active : ""
-              } ${"px-3"}`}
-              onClick={() => handleSetActive("home")}
+          <Nav className="me-4">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                `${
+                  isActive ? `${styles.active} p-2 bg-warning` : "p-2"
+                } px-3 text-decoration-none text-white`
+              }
             >
               Home
-            </Nav.Link>
-            <Nav.Link
-              href="/portfolio"
-              className={`${
-                activeLink === "portfolio" ? styles.active : ""
-              } ${"px-3"}`}
-              onClick={() => handleSetActive("portfolio")}
+            </NavLink>
+            <NavLink
+              to="/portfolio"
+              className={({ isActive }) =>
+                `${
+                  isActive ? `${styles.active} p-2 bg-warning` : "p-2"
+                } px-3 text-decoration-none text-white`
+              }
             >
               Portfolio
-            </Nav.Link>
+            </NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>

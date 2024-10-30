@@ -5,19 +5,49 @@
   width: 100%;
 }
 
-.gitHubColor:hover {
-  color: $color-yellow;
-}
-.linkedinColor:hover {
-  color: $color-yellow;
-}
+.gitHubColor:hover,
+.linkedinColor:hover,
 .facebookColor:hover {
-  color: $color-yellow;
+  color: $color-yellow; /* Assuming this is defined in VariableStyles */
 }
+
 .anchorTag {
   color: unset;
   margin-left: 0.5rem;
 }
+
 a {
-  list-style: none;
+  list-style: none; /* Ensure no list styles are applied to anchor tags */
+}
+
+.languageList {
+  margin: 0;
+  padding: 0;
+}
+
+.languageItem {
+  margin-bottom: 0.3rem; /* Space between items */
+}
+
+.languageItem h6 {
+  margin-bottom: 0.5rem; /* Space between title and list */
+}
+
+.languageItem ul {
+  list-style: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove left padding */
+}
+
+.languageItem li {
+  display: flex; /* Align icons and text */
+  align-items: center; /* Center icons vertically */
+}
+
+.languageItem li:hover {
+  color: $color-yellow; /* Change color on hover */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.languageItem li > * {
+  margin-left: 0.5rem; /* Space between text and icon */
 }

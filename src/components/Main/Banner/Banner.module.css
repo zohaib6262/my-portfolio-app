@@ -3,16 +3,10 @@
   width: 100%;
 }
 
-.gitHubColor:hover {
-  color: rgb(255, 193, 7);
-}
-
-.linkedinColor:hover {
-  color: rgb(255, 193, 7);
-}
-
+.gitHubColor:hover,
+.linkedinColor:hover,
 .facebookColor:hover {
-  color: rgb(255, 193, 7);
+  color: rgb(255, 193, 7); /* Assuming this is defined in VariableStyles */
 }
 
 .anchorTag {
@@ -21,5 +15,37 @@
 }
 
 a {
-  list-style: none;
+  list-style: none; /* Ensure no list styles are applied to anchor tags */
+}
+
+.languageList {
+  margin: 0;
+  padding: 0;
+}
+
+.languageItem {
+  margin-bottom: 0.3rem; /* Space between items */
+}
+
+.languageItem h6 {
+  margin-bottom: 0.5rem; /* Space between title and list */
+}
+
+.languageItem ul {
+  list-style: none; /* Remove default bullet points */
+  padding-left: 0; /* Remove left padding */
+}
+
+.languageItem li {
+  display: flex; /* Align icons and text */
+  align-items: center; /* Center icons vertically */
+}
+
+.languageItem li:hover {
+  color: rgb(255, 193, 7); /* Change color on hover */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.languageItem li > * {
+  margin-left: 0.5rem; /* Space between text and icon */
 }/*# sourceMappingURL=Banner.module.css.map */
